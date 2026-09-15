@@ -15,6 +15,13 @@ every state has indipendent timing/function but still support syncronize running
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Test_App" Type="Folder">
+			<Item Name="Test_Multiple Class_Multiple State.vi" Type="VI" URL="../Test_Multiple Class_Multiple State.vi"/>
+			<Item Name="Test_Multiple_Panel.vi" Type="VI" URL="../Test_Multiple_Panel.vi"/>
+			<Item Name="Test_Multiple_SubPanel_Self_Control.vi" Type="VI" URL="../Test_Multiple_SubPanel_Self_Control.vi"/>
+			<Item Name="Test_Multiple_SubPanel_Self HSMO_External_Control.vi" Type="VI" URL="../Test_Multiple_SubPanel_Self HSMO_External_Control.vi"/>
+			<Item Name="Test_Multiple_SubPanel_Single HSMO_External_Control.vi" Type="VI" URL="../Test_Multiple_SubPanel_Single HSMO_External_Control.vi"/>
+		</Item>
 		<Item Name="State Machine" Type="Folder">
 			<Item Name="SSW_Hyper_State_Machine.lvlibp" Type="LVLibp" URL="/C/Program Files (x86)/Hyper State Machine Framework/SSW_Hyper_State_Machine.lvlibp">
 				<Item Name="Hyper_State_Machine.lvclass" Type="LVClass" URL="/C/Program Files (x86)/Hyper State Machine Framework/SSW_Hyper_State_Machine.lvlibp/State_Machine_Class/Main_State_Machine/Hyper_State_Machine.lvclass"/>
@@ -65,13 +72,6 @@ every state has indipendent timing/function but still support syncronize running
 			<Item Name="Single Class_Multiple_State_External_8.vi" Type="VI" URL="../Single Class_Multiple_State_External_8.vi"/>
 			<Item Name="Single Class_Multiple_State_External_9.vi" Type="VI" URL="../Single Class_Multiple_State_External_9.vi"/>
 			<Item Name="Single Class_Multiple_State_External_10.vi" Type="VI" URL="../Single Class_Multiple_State_External_10.vi"/>
-		</Item>
-		<Item Name="Test_App" Type="Folder">
-			<Item Name="Test_Multiple Class_Multiple State.vi" Type="VI" URL="../Test_Multiple Class_Multiple State.vi"/>
-			<Item Name="Test_Multiple_Panel.vi" Type="VI" URL="../Test_Multiple_Panel.vi"/>
-			<Item Name="Test_Multiple_SubPanel_Self_Control.vi" Type="VI" URL="../Test_Multiple_SubPanel_Self_Control.vi"/>
-			<Item Name="Test_Multiple_SubPanel_Self HSMO_External_Control.vi" Type="VI" URL="../Test_Multiple_SubPanel_Self HSMO_External_Control.vi"/>
-			<Item Name="Test_Multiple_SubPanel_Single HSMO_External_Control.vi" Type="VI" URL="../Test_Multiple_SubPanel_Single HSMO_External_Control.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
